@@ -9,4 +9,6 @@ CurrentModule = FATEStools
 
 ```@autodocs
 Modules = [FATEStools]
+Pages   = ["inputdata.jl"]
+Order   = [:function, :type]
 ```
