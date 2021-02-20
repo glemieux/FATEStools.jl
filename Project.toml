@@ -1,0 +1,13 @@
+name = "fatestools"
+uuid = "72de58ba-3fb9-4b2d-825e-6332cff76a00"
+authors = ["Gregory Lemieux", "Lawrence Berkeley National Laboratory"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
