@@ -1,16 +1,16 @@
-using fatestools
+using FATEStools
 using Documenter
 
-DocMeta.setdocmeta!(fatestools, :DocTestSetup, :(using fatestools); recursive=true)
+DocMeta.setdocmeta!(FATEStools, :DocTestSetup, :(using FATEStools); recursive=true)
 
 makedocs(;
-    modules=[fatestools],
+    modules=[FATEStools],
     authors="Gregory Lemieux, Lawrence Berkeley National Laboratory",
-    repo="https://github.com/glemieux/fatestools.jl/blob/{commit}{path}#{line}",
-    sitename="fatestools.jl",
+    repo="https://github.com/glemieux/FATEStools.jl/blob/{commit}{path}#{line}",
+    sitename="FATEStools.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://glemieux.github.io/fatestools.jl",
+        canonical="https://glemieux.github.io/FATEStools.jl",
         assets=String[],
     ),
     pages=[
@@ -19,6 +19,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/glemieux/fatestools.jl",
+    repo="github.com/glemieux/FATEStools.jl",
     devbranch="main",
 )

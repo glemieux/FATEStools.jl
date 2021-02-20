@@ -1,12 +1,12 @@
 ```@meta
-CurrentModule = fatestools
+CurrentModule = FATEStools
 ```
 
-# fatestools
+# FATEStools
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [fatestools]
+Modules = [FATEStools]
 ```

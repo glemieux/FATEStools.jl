@@ -26,9 +26,9 @@ jobs:
           Pkg.develop(PackageSpec(path=pwd()))
           Pkg.instantiate()
           using Documenter: DocMeta, doctest
-          using fatestools
-          DocMeta.setdocmeta!(fatestools, :DocTestSetup, :(using fatestools); recursive=true)
-          doctest(fatestools)
+          using FATEStools
+          DocMeta.setdocmeta!(FATEStools, :DocTestSetup, :(using FATEStools); recursive=true)
+          doctest(FATEStools)
           include("docs/make.jl")'
       after_success: skip
 after_success:
