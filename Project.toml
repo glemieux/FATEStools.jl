@@ -10,6 +10,7 @@ NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
 NetCDF = "30363a11-5582-574a-97bb-aa9a979735b9"
 
 [compat]
+NCDatasets = "0.11"
 julia = "1"
 
 [extras]
