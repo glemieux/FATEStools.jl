@@ -118,9 +118,9 @@ version = "0.11.3"
 
 [[NetCDF]]
 deps = ["DiskArrays", "Formatting", "NetCDF_jll"]
-git-tree-sha1 = "783afb92a7c6a9bcd046992dd22c07dd0308e39d"
+git-tree-sha1 = "dc2059a0912d1cad5be55009aca5dc0fcdc4781e"
 uuid = "30363a11-5582-574a-97bb-aa9a979735b9"
-version = "0.11.1"
+version = "0.11.2"
 
 [[NetCDF_jll]]
 deps = ["Artifacts", "HDF5_jll", "JLLWrappers", "LibCURL_jll", "LibSSH2_jll", "Libdl", "MbedTLS_jll", "Pkg", "Zlib_jll", "nghttp2_jll"]
